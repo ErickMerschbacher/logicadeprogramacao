@@ -75,5 +75,18 @@ console.log(tabuada, "x 1 =", tabuada * 10);
 console.log("Fatorial de 5! =", 5 * 4 * 3 * 2 * 1);
 // 4
 
-let numeros = [1, 4, 5, 2, 3];
+//let numeros = [1, 4, 5, 2, 3];
+
+console.log("------------------------------------------------");
+//01
+const imparpar = (num) => {
+  return num % 2 == 0 ? "O número é par!" : "O número é impar!";
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(2));
+//05
+const ordemNumero = [8, 3, 5, 1, 9];
+console.log(ordemNumero);
+console.log(ordemNumero.sort());
 
