@@ -89,4 +89,57 @@ console.log(imparpar(2));
 const ordemNumero = [8, 3, 5, 1, 9];
 console.log(ordemNumero);
 console.log(ordemNumero.sort());
+//---------------------------------------------------------------------------------------------
+//1. Crie uma variável e atribua o nome de uma pessoa; 
+//2. Crie uma variável e atribua o nome de um banco; 
+//3. Crie uma variável e atribua o número da agência; 
+//4. Crie uma variável e atribua o número da conta; 
+//5. Crie uma variável e atribua o saldo da conta; 
+//6. Exiba os dados e o saldo da conta; 
+//7. Efetue e imprima 5 movimentações na conta; 
+//8. Exiba novamente os dados e o saldo da conta;
+var Nome = "Erick";
+var tentativa = "";
 
+while(tentativa !== Nome){
+  tentativa = prompt("Digite o nome:");
+}
+console.log("Acesso concedido!")
+var banco = "Bradesco";
+var tentativa = "";
+
+while(tentativa !== banco){
+  tentativa = prompt("Digite o nome do banco:");
+}
+console.log("Acesso concedido!")
+var agencia = "10234";
+var tentativa = "";
+
+while(tentativa !== agencia){
+  tentativa = prompt("Digite o número de sua agencia:");
+}
+console.log("Acesso concedido!")
+var numeroConta = "12345-6789-0";
+var tentativa = "";
+
+while(tentativa !== numeroConta){
+  tentativa = prompt("Digite o número de sua conta:");
+}
+console.log("Acesso concedido!")
+var Saldo = "9000";
+var tentativa = "";
+
+while(tentativa !== Saldo){
+  tentativa = prompt("Informe seu saldo:");
+}
+console.log("Acesso concedido!")
+console.log(`Olá ${Nome}! Seu banco: ${banco} Número da conta: ${numeroConta} Seu saldo é: ${Saldo}`);
+var x =0;
+do {
+  console.log(`Kelly transferiu 5, seu saldo agora é:${Saldo+5}`);
+  console.log(`Mayk transferiu 30, seu saldo agora é:${Saldo+30}`);
+  console.log(`Você transferiu 10 para Arthur, seu saldo agora é:${Saldo-10}`);
+  console.log(`Gabi transferiu 50, seu saldo agora é:${Saldo+50}`);
+  console.log(`Pedrinho transferiu 10, seu saldo agora é:${Saldo+10}`);
+  x++
+} while(x>1)
