@@ -98,7 +98,7 @@ console.log(ordemNumero.sort());
 //6. Exiba os dados e o saldo da conta; 
 //7. Efetue e imprima 5 movimentações na conta; 
 //8. Exiba novamente os dados e o saldo da conta;
-var Nome = "Erick";
+/*var Nome = "Erick";
 var tentativa = "";
 
 while(tentativa !== Nome){
@@ -141,6 +141,28 @@ while (contador <= 5){
   Saldo -= gasto.toFixed(2);
   contador++;
 }
-console.log(Saldo.toFixed(2));
+console.log(Saldo.toFixed(2));*/
 //jogo cara e coroa - melhor de três rodadas
 console.log("--------------------------------------")
+var cara = 11;
+
+do{
+  console.log("cara");
+  cara = 11;
+} while (cara > 10);
+
+console.log("cara!")
+var coroa = coroa;
+
+do{
+  console.log("coroa");
+  coroa = coroa;
+} while (coroa < 10);
+
+console.log("coroa!")
+var cara = 11;
+while (coroa <= 10){
+  console.log(cara)
+  let coroa = Math.random()*3; //Valor aleatório entre 0 e 99.9999999999...
+  cara -= coroa.toFixed(2);
+  coroa++;
