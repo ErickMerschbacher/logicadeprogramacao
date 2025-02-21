@@ -30,15 +30,3 @@ var matriz = [
 // |   3 5 8   |
 // |   1 9 2   |
 // |   7 1 4   |
-var x = 3
-var matriz = [
-    [3, 5, 8],
-    [1, 9, 2],
-    [7, 1, 4],
-]
-for (let x = 0; x < numeros.length; x++) {
-    numeros[x] *= 3;
-  }
-  console.log("vetor multiplicado por 3");
-  console.table(numeros);
-  
