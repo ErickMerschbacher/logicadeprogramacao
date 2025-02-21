@@ -134,12 +134,13 @@ while(tentativa !== Saldo){
 }
 console.log("Acesso concedido!")
 console.log(`Olá ${Nome}! Seu banco: ${banco} Número da conta: ${numeroConta} Seu saldo é: ${Saldo}`);
-var x =0;
-do {
-  console.log(`Kelly transferiu 5, seu saldo agora é:${Saldo+5}`);
-  console.log(`Mayk transferiu 30, seu saldo agora é:${Saldo+30}`);
-  console.log(`Você transferiu 10 para Arthur, seu saldo agora é:${Saldo-10}`);
-  console.log(`Gabi transferiu 50, seu saldo agora é:${Saldo+50}`);
-  console.log(`Pedrinho transferiu 10, seu saldo agora é:${Saldo+10}`);
-  x++
-} while(x>1)
+var contador =1;
+while (contador <= 5){
+  console.log(contador)
+  let gasto = Math.random()*100; //Valor aleatório entre 0 e 99.9999999999...
+  Saldo -= gasto.toFixed(2);
+  contador++;
+}
+console.log(Saldo.toFixed(2));
+//jogo cara e coroa - melhor de três rodadas
+console.log("--------------------------------------")
